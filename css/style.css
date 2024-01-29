@@ -197,6 +197,16 @@ form {
     margin-bottom: 80px;
 }
 
+textarea {
+    border-radius: 5px;
+    background-color: rgb(236, 219, 243);
+}
+
+input {
+    border-radius: 5px;
+    background-color: rgb(236, 219, 243);
+}
+
 .bio-info img {
     display: block; /*made it block to center it*/
     margin: 0 auto;
