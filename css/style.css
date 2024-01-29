@@ -157,6 +157,14 @@ hr {
     grid-template-columns: repeat(3, 1fr);
 }
 
+ul {
+    display: grid;
+}
+
+dl {
+    display: grid;
+}
+
 .one-col {
     display: grid;
     gap: 20px;
