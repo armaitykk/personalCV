@@ -122,6 +122,7 @@ hr {
     border-radius: 10px;
     box-sizing: border-box;
     padding-bottom: 10px;
+    padding: 20px;
 }
 
 .card ul { /* styling list of languages*/
@@ -138,6 +139,7 @@ hr {
 
 .card h3 {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .card:hover {
@@ -215,4 +217,17 @@ input {
 
 .bio-info {
     text-align: center;
+}
+
+
+.scroll-animation { /*cards initially hidden*/
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+
+.scroll-animation.show { /*showing cards on scroll*/
+    opacity: 1;
+    transform: translateY(0);
 }
